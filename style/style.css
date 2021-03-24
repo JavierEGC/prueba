@@ -1,0 +1,199 @@
+
+
+/*NAVBAR*/
+.navbar{
+    min-height: 60px;
+    text-align: center;
+    background-color:black;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+}
+.navbar img{
+    width: 150px;
+}
+
+.navbar .collapse a{
+    font-size: 20px;
+    cursor: context-menu;
+    color:white;
+}
+.navbar .collapse a:hover{
+    color: #B0B0B0;
+}
+
+.nav-link{ color: #1a1a1a; }
+.nav-link:hover{ color: #1a1a1a; }
+
+.navbar-toggler i{ font-size: 25px; float: left;}
+.navbar-toggler:focus{ outline: none; }
+
+
+/*HOME*/
+#home{
+    width: 100%;
+    min-height: 460px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+#home img{
+    width: 15%;
+    border-radius: 70%;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+#home img:hover{
+    -moz-transform:  scale(1.1);
+    -webkit-transform:  scale(1.1);
+    transform: scale(1.2);
+}
+#home p{
+    width: 40%;
+    margin: auto;
+    font-size: 25px;
+    margin-top: 40px;
+    font-family: 'Courgette', cursive;
+    color: black;
+}
+#home h5{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin-top: 40px;
+    color: brown;
+}
+
+/*MARCA*/
+#marca{
+    height: 100%;
+    min-height: 200px;
+    margin: auto;
+    text-align: center;
+}
+#marca img{
+    width: 200px;
+}
+
+
+/*PRODUCTOS*/
+#products{
+    min-height: 600px;
+}
+#products .contenedor{
+    width: 85%;
+    min-height: 500px;
+    margin: auto;
+}
+.contenedor h2{
+    margin-top: 30px;
+    width: 22%;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    background-color:#1b1b1b;
+    color: white;
+}
+.contenedor h3{
+    margin-top: 30px;
+    width: 18%;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color:hotpink;
+    color: white;
+}
+.contenedor .cubes{
+    margin: auto;
+    width: 90%;
+    min-height: 200px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.contenedor .descript{
+    width: 80%;
+    margin: auto;
+}
+.contenedor .descript h4{
+    margin-top: 10px;
+    color: black;
+    font-size: 18px;
+}
+.contenedor .descript p{
+    margin-top: 0px;
+    color: #373737;
+    font-size: 17px;
+}
+.cubes .cube{
+    margin: auto;
+    width: 85%;
+    min-height: 180px;
+    border: solid 1px slategrey;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+    
+}
+.cube img{
+    height: 250px;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.cube img:hover{
+    -moz-transform:  scale(1.1);
+    -webkit-transform:  scale(1.1);
+    transform: scale(1.1);
+}
+.cubes p{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 5px;
+    color: black;
+}
+
+#nike{
+    min-height: 300px;
+}
+#nike h2{
+    margin-top: 30px;
+    width: 22%;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    background-color:#1b1b1b;
+    color: white;
+}
+
+#adidas{
+    min-height: 300px;
+}
+#adidas h2{
+    margin-top: 30px;
+    width: 22%;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    background-color:#1b1b1b;
+    color: white;
+}
+
+/*FOOTER*/
+#footer{
+    width: 100%;
+    min-height: 80px;
+    background: #373737;
+    margin-top: 80px;
+}
+#footer p{
+    font-size: 16px;
+    margin-top: 25px;
+    color: thistle;
+}
+#footer b{ color: white;}
+#footer i{ 
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 25px;
+    color: white;
+    
+}
